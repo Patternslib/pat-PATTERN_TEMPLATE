@@ -2,3 +2,4 @@
 node_modules
 stamp-yarn
 yarn.lock
+pat-*
