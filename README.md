@@ -3,7 +3,16 @@ pat-PATTERN_TEMPLATE
 
 ## Documentation
 
-Pattern to do something.
+This is simple pattern project bootstrap template.
+
+Usage:
+
+    ./create.sh PROJECTNAME
+
+This will create a directory within this directory with the name ``pat-PROJECTNAME``.
+You can use it for developing a new pattern.
+
+
 
 
 ### Options reference
