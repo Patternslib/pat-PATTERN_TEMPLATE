@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "homepage": "https://gitub.com/patternslib/pat-PATTERN_TEMPLATE",
-  "main": "./src/pat-PATTERN_TEMPLATE.js",
+  "main": "./src/PATTERN_TEMPLATE.js",
   "dependencies": {
     "patternslib": "https://github.com/Patternslib/Patterns#master"
   },

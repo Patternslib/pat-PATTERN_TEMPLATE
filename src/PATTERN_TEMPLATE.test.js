@@ -1,5 +1,5 @@
 import "regenerator-runtime/runtime"; // needed for ``await`` support
-import pattern from "./pat-PATTERN_TEMPLATE";
+import pattern from "./PATTERN_TEMPLATE";
 import utils from "patternslib/src/core/utils";
 
 describe("pat-PATTERN_TEMPLATE", () => {
