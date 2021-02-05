@@ -1,5 +1,5 @@
 const path = require("path");
-const webpack = require("webpack");
+const webpack_helpers = require("patternslib/webpack/webpack-helpers");
 
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
@@ -41,6 +41,27 @@ module.exports = (env) => {
                     test: /\.js$/,
                     exclude: /node_modules\/(?!(patternslib)\/).*/,
                     loader: "babel-loader",
+                },
+                {
+                    test: /\.*(?:html|xml)$/i,
+                    use: "raw-loader",
+                },
+                {
+                    test: /\.(?:sass|scss|css)$/i,
+                    use: [
+                        {
+                            loader: "style-loader",
+                            options: {
+                                insert: webpack_helpers.top_head_insert,
+                            },
+                        },
+                        "css-loader",
+                        "sass-loader",
+                    ],
+                },
+                {
+                    test: /\.(png|jpe?g|gif|svg)$/i,
+                    use: "file-loader",
                 },
             ],
         },
