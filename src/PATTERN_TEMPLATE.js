@@ -3,7 +3,7 @@ import $ from "jquery"; // try to avoid
 import Base from "patternslib/src/core/base";
 import Parser from "patternslib/src/core/parser";
 
-const parser = new Parser("PATTERN_TEMPLATE");
+export const parser = new Parser("PATTERN_TEMPLATE");
 parser.addArgument("example-option", [1, 2, 3]);
 
 export default Base.extend({
