@@ -1,5 +1,5 @@
-import $ from "jquery";
 import "regenerator-runtime/runtime"; // needed for ``await`` support
+import $ from "jquery"; // try to avoid
 import Base from "patternslib/src/core/base";
 import Parser from "patternslib/src/core/parser";
 
