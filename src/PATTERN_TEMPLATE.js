@@ -12,8 +12,7 @@ export default Base.extend({
 
     async init() {
         this.options = parser.parse(this.el, this.options);
-        let external_library = await import("EXTERNAL_LIBRARY");
-        external_library = external_library.default;
+        const external_library = (await import("EXTERNAL_LIBRARY")).default;
 
         const example_option = this.options.exampleOption;
     },
