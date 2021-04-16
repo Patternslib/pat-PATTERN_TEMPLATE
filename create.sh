@@ -15,5 +15,6 @@ find ./pat-$PROJECTNAME -type f -exec sed -i "s/$SEARCHSTRING/$PROJECTNAME/g" {}
 cd pat-$PROJECTNAME
 git init
 git add .
-git commit -m"Initial for pat-$PROJECTNAME"
+git commit -m"maint(Release): Initial for pat-$PROJECTNAME"
 
+#
