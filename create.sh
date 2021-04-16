@@ -13,6 +13,7 @@ rm pat-$PROJECTNAME/create.sh
 rename "s/$SEARCHSTRING/$PROJECTNAME/" pat-$PROJECTNAME/src/*
 find ./pat-$PROJECTNAME -type f -exec sed -i "s/$SEARCHSTRING/$PROJECTNAME/g" {} \;
 cd pat-$PROJECTNAME
+echo "" > ./CHANGES.md
 git init
 git add .
 git commit -m"maint(Release): Initial for pat-$PROJECTNAME"
