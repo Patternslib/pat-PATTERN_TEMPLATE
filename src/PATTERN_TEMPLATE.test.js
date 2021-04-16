@@ -10,9 +10,9 @@ describe("pat-PATTERN_TEMPLATE", () => {
     it("is initialized correctly", async (done) => {
         document.body.innerHTML = `<div class="pat-PATTERN_TEMPLATE" />`;
 
-        const instance = pattern.init(
-            document.querySelector(".pat-PATTERN_TEMPLATE")
-        );
+        // Just an example!
+        // eslint-disable-next-line no-unused-vars
+        const instance = pattern.init(document.querySelector(".pat-PATTERN_TEMPLATE"));
         await utils.timeout(1);
 
         expect().toBe("");
