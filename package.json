@@ -10,7 +10,7 @@
     "homepage": "https://gitub.com/patternslib/pat-PATTERN_TEMPLATE",
     "main": "./src/PATTERN_TEMPLATE.js",
     "dependencies": {
-        "patternslib": "https://github.com/Patternslib/Patterns#master"
+        "@patternslib/patternslib": "4"
     },
     "devDependencies": {
         "@babel/core": "^7.13.15",
