@@ -15,7 +15,7 @@ describe("pat-PATTERN_TEMPLATE", () => {
         const instance = pattern.init(document.querySelector(".pat-PATTERN_TEMPLATE"));
         await utils.timeout(1);
 
-        expect().toBe("");
+        expect(document.body.innerHTML).toBe("<p>hello.</p>");
 
         done();
     });
