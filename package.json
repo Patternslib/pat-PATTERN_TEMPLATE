@@ -2,12 +2,7 @@
     "name": "pat-PATTERN_TEMPLATE",
     "version": "1.0.0",
     "description": "A pattern for PATTERN_TEMPLATE",
-    "author": {
-        "name": "Syslab GesmbH",
-        "email": "dev@syslab.com"
-    },
     "license": "MIT",
-    "homepage": "https://gitub.com/patternslib/pat-PATTERN_TEMPLATE",
     "main": "./src/PATTERN_TEMPLATE.js",
     "dependencies": {
         "@patternslib/patternslib": "4"
@@ -69,5 +64,14 @@
     },
     "publishConfig": {
         "access": "public"
+    },
+    "author": {
+        "name": "Syslab GesmbH",
+        "email": "dev@syslab.com"
+    },
+    "homepage": "https://gitub.com/patternslib/pat-PATTERN_TEMPLATE",
+    "repository": {
+        "type": "git",
+        "url": "https://gitub.com/patternslib/pat-PATTERN_TEMPLATE.git"
     }
 }
