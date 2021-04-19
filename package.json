@@ -69,9 +69,9 @@
         "name": "Syslab GesmbH",
         "email": "dev@syslab.com"
     },
-    "homepage": "https://gitub.com/patternslib/pat-PATTERN_TEMPLATE",
+    "homepage": "https://github.com/patternslib/pat-PATTERN_TEMPLATE",
     "repository": {
         "type": "git",
-        "url": "https://gitub.com/patternslib/pat-PATTERN_TEMPLATE.git"
+        "url": "https://github.com/patternslib/pat-PATTERN_TEMPLATE.git"
     }
 }
