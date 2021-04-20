@@ -77,7 +77,6 @@ release-patch: check
 
 .PHONY: serve
 serve:: stamp-yarn
-	printf "\n\nGo to http://localhost:8000 to see the demo\n\n\n\n"
 	$(YARN) run start
 
 
