@@ -6,6 +6,15 @@ The release process based on release-it includes automatic changelog generation 
 Please check the [code style guide](https://github.com/Patternslib/Patterns/blob/master/docs/developer/styleguide.md#commits-messages) for the commit specification!
 
 
+## Release
+
+The created package has a Patternslib enabled release workflow.
+By default the package lives in the ``@patternslib`` scope on npm and downloadable bundles are published to the [Patterns-releases](https://github.com/Patternslib/Patterns-releases/tree/main/releases) repository on Github.
+
+You might want to change these paramters to fit your release process and accessible npm scopes and Github repos.
+If you believe you need access to the npm ``@patternslib`` scope create an [Issue on Patterns-releases](https://github.com/Patternslib/Patterns-releases/issues).
+
+
 ## Documentation
 
 This is simple pattern project bootstrap template.
