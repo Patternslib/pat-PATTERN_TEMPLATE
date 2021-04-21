@@ -9,10 +9,10 @@ Please check the [code style guide](https://github.com/Patternslib/Patterns/blob
 ## Release
 
 The created package has a Patternslib enabled release workflow.
-By default the package lives in the ``@patternslib`` scope on npm and downloadable bundles are published to the [Patterns-releases](https://github.com/Patternslib/Patterns-releases/tree/main/releases) repository on Github.
+By default the package lives in the ``@patternslib`` scope on npm.
 
-You might want to change these paramters to fit your release process and accessible npm scopes and Github repos.
-If you believe you need access to the npm ``@patternslib`` scope create an [Issue on Patterns-releases](https://github.com/Patternslib/Patterns-releases/issues).
+You might want to change these paramters to fit your release process and accessible npm scopes.
+If you believe you need access to the npm ``@patternslib`` scope create an [Issue on Patterns](https://github.com/Patternslib/Patterns/issues).
 
 
 ## Documentation
