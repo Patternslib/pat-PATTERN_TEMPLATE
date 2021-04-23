@@ -9,4 +9,4 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 
 import jquery from "jquery";
-window.$ = window.jquery = jquery;
+window.$ = window.jQuery = jquery;
