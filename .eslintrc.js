@@ -8,7 +8,7 @@ module.exports = {
         jest: true,
     },
     parser: "@babel/eslint-parser",
-    ignorePatterns: [],
+    ignorePatterns: ["dist/", "docs/", "node_modules/"],
     rules: {
         "no-debugger": 1,
         "no-duplicate-imports": 1,
