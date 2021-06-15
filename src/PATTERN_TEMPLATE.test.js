@@ -7,7 +7,7 @@ describe("pat-PATTERN_TEMPLATE", () => {
         document.body.innerHTML = "";
     });
 
-    it("is initialized correctly", async (done) => {
+    it("is initialized correctly", async () => {
         document.body.innerHTML = `<div class="pat-PATTERN_TEMPLATE" />`;
 
         // Just an example!
@@ -16,7 +16,5 @@ describe("pat-PATTERN_TEMPLATE", () => {
         await utils.timeout(1);
 
         expect(document.body.innerHTML).toBe("<p>hello.</p>");
-
-        done();
     });
 });
