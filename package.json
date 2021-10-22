@@ -1,6 +1,6 @@
 {
     "name": "@patternslib/pat-PATTERN_TEMPLATE",
-    "version": "0.0.1",
+    "version": "5.1.2",
     "description": "A pattern for PATTERN_TEMPLATE",
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",

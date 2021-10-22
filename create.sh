@@ -12,6 +12,7 @@ git checkout-index -a -f --prefix=./pat-$PROJECTNAME/
 rm pat-$PROJECTNAME/create.sh
 rename "s/$SEARCHSTRING/$PROJECTNAME/" pat-$PROJECTNAME/src/*
 find ./pat-$PROJECTNAME -type f -exec sed -i "s/$SEARCHSTRING/$PROJECTNAME/g" {} \;
+sed -i  's/"version": ".*"/"version": "1.0.0"/' ./pat-$PROJECTNAME/package.json
 cd pat-$PROJECTNAME
 echo "" > ./CHANGES.md
 git init
