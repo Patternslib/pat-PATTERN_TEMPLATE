@@ -8,7 +8,14 @@ module.exports = {
         jest: true,
     },
     parser: "@babel/eslint-parser",
-    ignorePatterns: ["dist/", "docs/", "node_modules/"],
+    ignorePatterns: [
+        "cache/",
+        "coverage/",
+        "dist/",
+        "node_modules/",
+        "stats.json",
+        "style/",
+    ],
     rules: {
         "no-debugger": 1,
         "no-duplicate-imports": 1,
@@ -17,8 +24,5 @@ module.exports = {
         "no-control-regex": 0,
         "no-self-assign": 0,
         "no-useless-escape": 0,
-    },
-    globals: {
-        spyOn: true, // eventually replace with jest.spyOn and then fix a ton of test failures.
     },
 };
