@@ -5,7 +5,7 @@
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
     "dependencies": {
-        "@patternslib/patternslib": "^6.0.1"
+        "@patternslib/patternslib": "^7.0.0"
     },
     "devDependencies": {
         "@babel/core": "^7.16.0",
