@@ -5,7 +5,7 @@ const patternslib_config = require("@patternslib/patternslib/webpack/webpack.con
 module.exports = async (env, argv) => {
     let config = {
         entry: {
-            bundle: path.resolve(__dirname, "bundle-config.js"),
+            "bundle.min": path.resolve(__dirname, "bundle-config.js"),
         },
     };
     config = patternslib_config(env, argv, config);
