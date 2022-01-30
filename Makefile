@@ -5,7 +5,8 @@ ESLINT ?= npx eslint
 YARN   ?= npx yarn
 
 
-stamp-yarn:
+.PHONY: install
+stamp-yarn install:
 	$(YARN) install
 	# Install pre commit hook
 	$(YARN) husky install
@@ -66,7 +67,7 @@ release-patch: check
 
 
 .PHONY: serve
-serve:: stamp-yarn
+serve: stamp-yarn
 	$(YARN) run start
 
 
