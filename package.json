@@ -4,6 +4,9 @@
     "description": "A pattern for PATTERN_TEMPLATE",
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
+    "dependencies": {
+        "jquery": "^3.6.0"
+    },
     "peerDependencies": {
         "@patternslib/patternslib": "*"
     },
