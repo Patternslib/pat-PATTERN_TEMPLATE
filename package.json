@@ -4,8 +4,8 @@
     "description": "A pattern for PATTERN_TEMPLATE",
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
-    "dependencies": {
-        "@patternslib/patternslib": "^7.5.0"
+    "peerDependencies": {
+        "@patternslib/patternslib": "*"
     },
     "devDependencies": {
         "@babel/core": "^7.17.8",
