@@ -44,7 +44,7 @@ bundle: stamp-yarn
 
 
 release-zip: clean-dist bundle
-	PACKAGE_NAME = "pat-PATTERN_TEMPLATE"
+	$(eval PACKAGE_NAME := $(subst @patternslib/,,$(shell node -p "require('./package.json').name")))
 	$(eval PACKAGE_VERSION := $(shell node -p "require('./package.json').version"))
 	@echo name is $(PACKAGE_NAME)
 	@echo version is $(PACKAGE_VERSION)
