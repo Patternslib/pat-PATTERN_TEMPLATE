@@ -5,7 +5,7 @@ const path = require("path");
 const patternslib_package_json = require("@patternslib/patternslib/package.json");
 const webpack_config = require("@patternslib/dev/webpack/webpack.config").config;
 
-module.exports = async () => {
+module.exports = () => {
     let config = {
         entry: {
             "bundle.min": path.resolve(__dirname, "index.js"),
