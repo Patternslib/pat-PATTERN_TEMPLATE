@@ -5,10 +5,10 @@
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
     "dependencies": {
-        "jquery": "^3.6.0"
+        "jquery": "^3.6.1"
     },
     "devDependencies": {
-        "@patternslib/dev": "^2.4.0",
+        "@patternslib/dev": "^2.6.0",
         "@patternslib/patternslib": "*"
     },
     "scripts": {
