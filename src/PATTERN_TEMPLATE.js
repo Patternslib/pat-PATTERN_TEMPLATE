@@ -21,6 +21,6 @@ export default Base.extend({
 
         // Just an example!
         // And completly useless.
-        document.body.innerHTML = "<p>hello.</p>";
+        this.el.innerHTML = "<p>hello.</p>";
     },
 });
