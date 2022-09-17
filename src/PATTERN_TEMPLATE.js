@@ -9,6 +9,8 @@ export default Base.extend({
     trigger: ".pat-PATTERN_TEMPLATE",
 
     async init() {
+        import("./PATTERN_TEMPLATE.scss");
+
         this.options = parser.parse(this.el, this.options);
 
         // Just an example!
