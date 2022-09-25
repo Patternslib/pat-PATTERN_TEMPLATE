@@ -15,6 +15,6 @@ describe("pat-PATTERN_TEMPLATE", () => {
         const instance = new Pattern(el);
         await utils.timeout(1); // wait a tick for async to settle.
 
-        expect(document.body.innerHTML).toBe("<p>hello.</p>");
+        expect(el.innerHTML).toBe("<p>hello.</p>");
     });
 });
