@@ -1,15 +1,15 @@
 {
     "name": "@patternslib/pat-PATTERN_TEMPLATE",
-    "version": "7.0.0",
+    "version": "9.7.0",
     "description": "A pattern for PATTERN_TEMPLATE",
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
     "dependencies": {
+        "@patternslib/patternslib": ">=9.7.0-alpha.0",
         "jquery": "^3.6.1"
     },
     "devDependencies": {
-        "@patternslib/dev": "^2.6.0",
-        "@patternslib/patternslib": "*"
+        "@patternslib/dev": "<3"
     },
     "scripts": {
         "start": "NODE_ENV=development webpack serve --config webpack.config.js",
