@@ -13,4 +13,4 @@ A more detailed documentation on how to use it goes here.
 
 | Property       | Default Value | Values | Type              | Description                   |
 | -------------- | ------------- | ------ | ----------------- | ----------------------------- |
-| example_option | [1, 2, 3]     |        | Array of integers | Example configuration option. |
+| example_option | Stranger      |        | String            | Example configuration option. |
