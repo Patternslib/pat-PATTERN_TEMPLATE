@@ -2,7 +2,7 @@ import Pattern from "./PATTERN_TEMPLATE";
 import utils from "@patternslib/patternslib/src/core/utils";
 
 describe("pat-PATTERN_TEMPLATE", () => {
-    beforeEach(() => {
+    afterEach(() => {
         document.body.innerHTML = "";
     });
 
