@@ -1,5 +1,5 @@
 import Pattern from "./PATTERN_TEMPLATE";
-import utils from "@patternslib/patternslib/src/core/utils";
+import events from "@patternslib/patternslib/src/core/events";
 
 describe("pat-PATTERN_TEMPLATE", () => {
     afterEach(() => {
@@ -11,7 +11,7 @@ describe("pat-PATTERN_TEMPLATE", () => {
         const el = document.querySelector(".pat-PATTERN_TEMPLATE");
 
         const instance = new Pattern(el);
-        await utils.timeout(1); // wait a tick for async to settle.
+        await events.await_pattern_init(instance);
 
         expect(el.innerHTML.trim()).toBe(
             `<p>hello ${instance.options.exampleOption}, this is pattern ${instance.name} speaking.</p>`
@@ -25,7 +25,7 @@ describe("pat-PATTERN_TEMPLATE", () => {
         const el = document.querySelector(".pat-PATTERN_TEMPLATE");
 
         const instance = new Pattern(el);
-        await utils.timeout(1); // wait a tick for async to settle.
+        await events.await_pattern_init(instance);
 
         expect(el.innerHTML.trim()).toBe(
             `<p>hello World, this is pattern ${instance.name} speaking.</p>`
