@@ -24,8 +24,9 @@
         "/src"
     ],
     "browserslist": [
-        ">0.2%",
-        "not dead"
+        "last 2 versions",
+        "not dead",
+        "> 0.2%"
     ],
     "author": {
         "name": "Syslab GesmbH",
