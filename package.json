@@ -20,8 +20,8 @@
         "test": "jest"
     },
     "files": [
-        "/src",
-        "/dist"
+        "/dist",
+        "/src"
     ],
     "browserslist": [
         ">0.2%",
