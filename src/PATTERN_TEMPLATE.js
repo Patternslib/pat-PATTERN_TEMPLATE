@@ -11,7 +11,10 @@ class Pattern extends BasePattern {
     static parser = parser;
 
     async init() {
-        import("./PATTERN_TEMPLATE.scss");
+        if (window.__patternslib_import_styles) {
+            // Only import styles if the global flag is set.
+            import("./PATTERN_TEMPLATE.scss");
+        }
 
         // Try to avoid jQuery, but here is how to import it.
         // eslint-disable-next-line no-unused-vars
