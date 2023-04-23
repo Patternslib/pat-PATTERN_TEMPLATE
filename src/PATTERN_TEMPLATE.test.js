@@ -1,12 +1,12 @@
 import Pattern from "./PATTERN_TEMPLATE";
 import events from "@patternslib/patternslib/src/core/events";
 
-describe("pat-PATTERN_TEMPLATE", () => {
-    afterEach(() => {
+describe("pat-PATTERN_TEMPLATE", function () {
+    afterEach(function () {
         document.body.innerHTML = "";
     });
 
-    it("is initialized correctly", async () => {
+    it("is initialized correctly", async function () {
         document.body.innerHTML = `<div class="pat-PATTERN_TEMPLATE" />`;
         const el = document.querySelector(".pat-PATTERN_TEMPLATE");
 
@@ -17,7 +17,7 @@ describe("pat-PATTERN_TEMPLATE", () => {
             `<p>hello ${instance.options.exampleOption}, this is pattern ${instance.name} speaking.</p>`
         );
     });
-    it("is initialized correctly with options from attribute", async () => {
+    it("is initialized correctly with options from attribute", async function () {
         document.body.innerHTML = `<div
             class="pat-PATTERN_TEMPLATE"
             data-pat-PATTERN_TEMPLATE='{"example-option": "World"}'
