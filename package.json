@@ -5,11 +5,11 @@
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
     "dependencies": {
-        "@patternslib/patternslib": ">=9.8.0-beta.0",
-        "jquery": "^3.6.1"
+        "@patternslib/patternslib": ">=9.10.2",
+        "jquery": "^3.7.1"
     },
     "devDependencies": {
-        "@patternslib/dev": "<4"
+        "@patternslib/dev": "3.8.1"
     },
     "scripts": {
         "start": "NODE_ENV=development webpack serve --config webpack.config.js",
