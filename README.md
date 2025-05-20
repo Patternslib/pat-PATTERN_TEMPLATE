@@ -2,7 +2,7 @@
 
 ## Code style
 
-The release process based on release-it includes automatic changelog generation via conventional-commit, commitlint and a pre-commit hook by husky.
+The release process based on release-it includes automatic changelog generation via conventional-commit, commitlint and a pre-commit hook to check the commit message format.
 Please check the [code style guide](https://github.com/Patternslib/Patterns/blob/master/docs/developer/styleguide.md#commits-messages) for the commit specification!
 
 
