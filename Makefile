@@ -18,6 +18,8 @@
 -include .env
 export
 
+YARN ?= npx yarn
+
 
 yarn.lock install:
 	$(YARN) install
@@ -28,5 +30,3 @@ bundle-pre:
 	-$(YARN) unlink @patternslib/dev
 	-$(YARN) unlink @patternslib/patternslib
 	$(YARN) install --force
-
-#
