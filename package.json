@@ -5,7 +5,7 @@
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
     "dependencies": {
-        "@patternslib/patternslib": ">=9.10.2",
+        "@patternslib/patternslib": ">=9.10.3",
         "jquery": "^3.7.1"
     },
     "devDependencies": {
