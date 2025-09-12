@@ -11,8 +11,9 @@ class Pattern extends BasePattern {
     static parser = parser;
 
     async init() {
+
+        // Only import styles if the global flag is set.
         if (window.__patternslib_import_styles) {
-            // Only import styles if the global flag is set.
             import("./PATTERN_TEMPLATE.scss");
         }
 
