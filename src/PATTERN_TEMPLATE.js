@@ -14,7 +14,7 @@ class Pattern extends BasePattern {
 
         // Only import styles if the global flag is set.
         if (window.__patternslib_import_styles) {
-            import("./PATTERN_TEMPLATE.scss");
+            import("./PATTERN_TEMPLATE.css");
         }
 
         // Try to avoid jQuery, but here is how to import it.
