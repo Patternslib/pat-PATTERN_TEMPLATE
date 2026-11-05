@@ -169,9 +169,6 @@ importers:
       '@patternslib/patternslib':
         specifier: ^9.11.1
         version: 9.11.1
-      jquery:
-        specifier: ^3.7.1
-        version: 3.7.1
     devDependencies:
       '@patternslib/dev':
         specifier: 4.4.0
