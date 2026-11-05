@@ -6,8 +6,7 @@
     "main": "./src/PATTERN_TEMPLATE.js",
     "packageManager": "pnpm@12.16.1",
     "dependencies": {
-        "@patternslib/patternslib": "^9.11.1",
-        "jquery": "^3.7.1"
+        "@patternslib/patternslib": "^9.11.1"
     },
     "devDependencies": {
         "@patternslib/dev": "4.4.0"
