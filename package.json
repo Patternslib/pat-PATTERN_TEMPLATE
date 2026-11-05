@@ -9,7 +9,7 @@
         "jquery": "^3.7.1"
     },
     "devDependencies": {
-        "@patternslib/dev": "4.2.1"
+        "@patternslib/dev": "4.4.0"
     },
     "scripts": {
         "start": "NODE_ENV=development webpack serve --config webpack.config.js",
