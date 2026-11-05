@@ -4,6 +4,7 @@
     "description": "A pattern for PATTERN_TEMPLATE",
     "license": "MIT",
     "main": "./src/PATTERN_TEMPLATE.js",
+    "packageManager": "pnpm@12.16.1",
     "dependencies": {
         "@patternslib/patternslib": "^9.11.1",
         "jquery": "^3.7.1"
