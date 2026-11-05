@@ -11,13 +11,21 @@ class Pattern extends BasePattern {
     static parser = parser;
 
     async init() {
-
         // Only import styles if the global flag is set.
         if (window.__patternslib_import_styles) {
             import("./PATTERN_TEMPLATE.css");
         }
 
         // Try to avoid jQuery, but here is how to import it.
+        //
+        // NOTE: There is no jQuery dependency in package.json.
+        // This is provided by @patternslib/patternslib until a future major
+        // version, where there eventually will be no jQuery anymore in the
+        // future. But as with majro changes on upstream dependencies - you
+        // have to check it anyways. And then you would need to remove jQuery
+        // from your source code or depend on jQuery in your package.json
+        // yourself.
+        //
         // eslint-disable-next-line no-unused-vars
         const $ = (await import("jquery")).default;
 
